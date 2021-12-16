@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>WebAgora</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="../index.html" class="nav__logo">
+                Web Agora
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#about" class="nav__link">Quem Somos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#why" class="nav__link">Porque a WA</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#products" class="nav__link">Modelos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#contact" class="nav__link">Contate-nos</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="new section container" id="new">
+            <h2 class="section__title-center">Escolha seu modelo de site</h2>
+
+            <div class="new__container grid bd-grid">
+
+                <div class="new__box">
+                    <a href="Halloween/index.html"><img src="img/pre1halloween.jpg" target="_blank" alt="" class="new__img"></a>
+
+                    <div class="new__link">
+                        <a href="Halloween/index.html" target="_blank" class="button buttonedges">Exibir modelo</a>
+                    </div>
+                </div>
+                
+                    <div class="new__box">
+                        <a href="Restaurante/index.html"><img src="img/pre1restaurante.jpg" target="_blank" alt="" class="new__img"></a>
+    
+                        <div class="new__link">
+                            <a href="Restaurante/index.html" target="_blank" class="button buttonedges">Exibir modelo</a>
+                        </div>
+                    </div>
+                    
+                        <div class="new__box">
+                            <a href="perfilpro/index.html"><img src="img/pre1perfil.jpg" alt="" class="new__img"></a>
+        
+                            <div class="new__link">
+                                <a href="perfilpro/index.html" target="_blank" class="button buttonedges">Exibir modelo</a>
+                            </div>
+                        </div>
+                        
+                            <div class="new__box">
+                                <a href="Artigo/index.html"><img src="img/pre1artigo.jpg" alt="" class="new__img"></a>
+            
+                                <div class="new__link">
+                                    <a href="Artigo/index.html" target="_blank" class="button">Exibir modelo</a>
+                                </div>
+                            </div>
+            </div>
+
+            </div>
+        </section>
+                <!--==================== CONTACT ==================-->
+            <section class="contact section container" id="contact">
+                        <div class="contact__container grid">
+                            <div class="contact__box">
+                                <h2 class="section__title">
+                                    Escolheu o seu tamplete, <br>ou teve alguma dúvida?<br> Nos envie uma mensagem.
+                                </h2>
+        
+                                <div class="contact__data">
+                                    <!--<div class="contact__information">
+                                        <h3 class="contact__subtitle">
+                                            Mande uma mensagem pelo e-mail
+                                        </h3>
+                                        <span class="contact__description">
+                                            <i class="ri-mail-line contact__icon"></i>usario@gmail.com
+                                        </span>
+                                    </div>-->
+                                </div>
+                            </div>
+                            <form action="https://formspree.io/f/mzbobydk" method="POST" id="my-form">
+      
+                                <div class="form-group">
+                                  <label for="firstName">Nome</label>
+                                  <input type="text" id="firstName" name="firstName">
+                                </div>
+                          
+                                <div class="form-group">
+                                  <label for="latsName">Sobre Nome</label>
+                                  <input type="text" id="lastName" name="lastName">
+                                </div>
+                          
+                                <div class="form-group">
+                                  <label for="email">Email</label>
+                                  <input type="email" id="email" name="email">
+                                </div>
+                          
+                                <div class="form-group">
+                                  <label for="massage">Mensagem</label>
+                                  <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                                </div>
+                          
+                                <button type="submit">Enviar</button>
+                              </form>
+                            
+                        <div id="status"></div>
+            </section>
+                <!--==================== FOOTER ==================-->
+            <footer class="footer section">
+                    <div class="footer__container container grid">
+                        <div class="footer__content">
+                            <a href="" class="footer__logo">Web Agora</a>
+                        </div>
+                        <div class="footer__content">
+                            <h3 class="footer__title">Nosso Endereço</h3>
+        
+                            <ul class="footer__data">
+                                <li class="footer__information">Guarulhos - SP</li>
+                            </ul>
+                        </div>
+                        <div class="footer__content">
+                            <h3 class="footer__title">Contate-nos</h3>
+        
+                            <ul class="footer__data">
+                                <li class="footer__information">webagora@outlook.com</li>
+        
+                                <div class="footer__social">
+                                    <a href="https://www.instagram.com/webagora/" class="footer__social-link">
+                                        <i class="ri-instagram-line"></i> @webagora
+                                    </a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <p class="footer__copy">&#169; WebAgora. Todos os direitos reservados</p>
+            </footer>
+                <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-fill scrollup__icon"></i>
+                </a>
+                <!--=============== SCROLL REVEAL ===============-->
+        <script src=""></script>
+                
+                <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+    </main>
+</body>
